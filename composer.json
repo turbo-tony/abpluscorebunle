@@ -1,0 +1,27 @@
+{
+    "name": "abplus/core-bundle",
+    "version": "1.0.0",
+    "description": "Base bundle used for Symfony AB Plus projects",
+    "type": "symfony-bundle",
+    "authors" : [{
+        "name" : "Antoine Bousquet",
+        "email" : "antoine.p.bousquet@gmail.com"
+    }],
+    "keywords" : [
+        "abplus core bundle"
+    ],
+    "license" : [
+        "restricted"
+    ],
+    "autoload" : {
+        "psr-0" : {
+            "ABPlus\\CoreBundle" : ""
+        }
+    },
+    "require": {
+        "php":                      ">=7.0.0",
+        "symfony/framework-bundle": ">=3.2.0"
+    },
+    "minimum-stability": "dev",
+    "target-dir" : "ABPlus/CoreBundle"
+}
