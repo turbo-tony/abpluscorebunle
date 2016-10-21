@@ -15,13 +15,12 @@
     ],
     "autoload" : {
         "psr-4" : {
-            "ABPlus\\CoreBundle" : ""
+            "ABPlus\\CoreBundle\\" : ""
         }
     },
     "require": {
         "php":                      ">=7.0.0",
         "symfony/framework-bundle": ">=3.0.0"
     },
-    "minimum-stability": "dev",
-    "target-dir" : "ABPlus/CoreBundle"
+    "minimum-stability": "dev"
 }
