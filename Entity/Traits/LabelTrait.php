@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains the Id Trait for entity classes
+ * Contains the Label Trait for entity classes
  *
  * @author      Antoine Bousquet <antoine.p.bousquet@gmail.com>
- * @copyright   ABPlus 2015
+ * @copyright   ABPlus 2016
  * @package     ABPlus
  * @subpackage  CoreBundle
  * @category    EntityTrait
@@ -12,42 +12,42 @@
 namespace ABPlus\CoreBundle\Entity\Traits;
 
 /**
- * Id Trait for entity classes
+ * Label Trait for entity classes
  *
  * @author      Antoine Bousquet <antoine.p.bousquet@gmail.com>
  * @package     ABPlus
  * @subpackage  CoreBundle
  * @category    EntityTrait
  */
-Trait IdTrait
+Trait LabelTrait
 {
     /**
-     * Identifier
+     * Label
      *
-     * @var int
+     * @var string
      */
-    protected $id;
+    protected $label;
 
     /**
-     * Set id
+     * Set label
      *
-     * @param $id
+     * @param string $label
      * @return $this
      */
-    public function setId($id)
+    public function setLabel($label)
     {
-        $this->id = $id;
+        $this->label = $label;
 
         return $this;
     }
 
     /**
-     * Get id
+     * Get label
      *
-     * @return int
+     * @return string
      */
-    public function getId()
+    public function getLabel()
     {
-        return $this->id;
+        return $this->label;
     }
 }
